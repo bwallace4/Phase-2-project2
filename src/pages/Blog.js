@@ -5,25 +5,25 @@ import { Link } from "react-router-dom";
 
 function Blog() {
   const [posts, setPosts] = useState([]);
-  const [Fullname, FullnameChange] = useState("");
-  const [Email, emailChange] = useState("");
-  const [Message, messageChange] = useState("");
+  const [name, nameChange] = useState("");
+  const [email, emailChange] = useState("");
+  const [message, messageChange] = useState("");
   
 
 
   const displayPost = posts.map((post) =>{
     return(
       <>
-      <p>{post.Fullname}</p>
-      <p>{post.Email}</p>
-      <p>{post.Message}</p>
+      <p>{post.name}</p>
+      <p>{post.email}</p>
+      <p>{post.message}</p>
       </>
     )
   })
 
   function handleSubmit (e)  {
     e.preventDefault();
-    const blog = { Fullname, Email, Message};
+    const blog = { name, email, message};
    
   
 
@@ -71,12 +71,12 @@ function Blog() {
           <label htmlFor="name">Full Name</label>
          
       <input name="name" placeholder="Enter full name..." type="text" />
-      <input value={Fullname} onChange={e=>FullnameChange(e.target.value)} className="form-control"></input>
+      <input value={name} onChange={e=>nameChange(e.target.value)} className="form-control"></input>
           
           <label htmlFor="email">Email</label>
          
       <input name="email" placeholder="Enter email..." type="email" />
-      <input value={Email} onChange={e=>emailChange(e.target.value)} className="form-control"></input>
+      <input value={email} onChange={e=>emailChange(e.target.value)} className="form-control"></input>
          
           <label htmlFor="message">Message</label>
           
@@ -85,7 +85,7 @@ function Blog() {
             placeholder="Enter message..."
             name="message"
             required
-            value={Message} onChange={e=>messageChange(e.target.value)} className="form-control">
+            value={message} onChange={e=>messageChange(e.target.value)} className="form-control">
           </textarea>
          
           <button type="submit"> Create New </button>
