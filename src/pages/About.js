@@ -1,5 +1,5 @@
 import React from "react";
-import team from "../images/team.jpg";
+import team from "../images/team.jpeg";
 import "../styles/About.css";
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
         style={{ backgroundImage: `url(${team})` }}
       ></div>
       <div className="aboutBottom">
-        <h1> Meet The Team</h1>
+        <h1>Happy 4th of July</h1>
         <p>
         We are committed to enabling a high-performance culture and supporting our team members’ ability to live with purpose every day.
 Our aim is to create a positive work environment where everyone can thrive and find opportunities to grow, learn, and pursue their passions while contributing to our purpose to create healthier futures.
