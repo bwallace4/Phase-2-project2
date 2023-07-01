@@ -1,13 +1,12 @@
 import React from "react";
-// import { Shop } from "./Shop";
-//import ShopItem from "../components/ShopItem";
 import "../styles/Sale.css";
 import {useEffect,useState} from "react";
 
 function Menu() {
   const [shop, setShop] = useState([]);
 
-
+  
+ 
 
   const displayshop = shop.map((shops) =>{
     return(
@@ -16,7 +15,9 @@ function Menu() {
       <p>{shops.image}</p>
       <p>{shops.price}</p>
       </>
+      
     )
+ 
   })
   
   
