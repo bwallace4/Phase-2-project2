@@ -64,19 +64,17 @@ function Blog() {
 
   
        
-      
-        
 
         <form id="contact-form" onSubmit={handleSubmit} method="POST">
           <label htmlFor="name">Full Name</label>
          
-      <input name="name" placeholder="Enter full name..." type="text" />
-      <input value={name} onChange={e=>nameChange(e.target.value)} className="form-control"></input>
+      <input name="name" placeholder="Enter full name..." type="text" 
+       value={name} onChange={e=>nameChange(e.target.value)} className="form-control"></input>
           
           <label htmlFor="email">Email</label>
          
-      <input name="email" placeholder="Enter email..." type="email" />
-      <input value={email} onChange={e=>emailChange(e.target.value)} className="form-control"></input>
+      <input name="email" placeholder="Enter email..." type="email" 
+       value={email} onChange={e=>emailChange(e.target.value)} className="form-control"></input>
          
           <label htmlFor="message">Message</label>
           
