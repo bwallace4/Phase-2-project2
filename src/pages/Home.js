@@ -12,7 +12,7 @@ function Home() {
     >
       <div className='headerContainer'>
         <h1>Lets celebrate our independence</h1>
-        <Link to='/sale'>
+        <Link to='/contributors'>
           <button>Signees</button>
         </Link>
       </div>
