@@ -9,8 +9,7 @@ function Menu() {
     return (
       <>
         <p>{shops.name}</p>
-        <p>{shops.image}</p>
-        <p>{shops.price}</p>
+        
       </>
     );
   });
