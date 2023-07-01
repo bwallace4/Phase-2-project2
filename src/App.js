@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Sale from "./pages/Sale";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
-import Postcreate from "./pages/Postcreate";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route path="/sale" exact component={Sale} />
           <Route path="/about" exact component={About} />
           <Route path="/blog" exact component={Blog} />
-          <Route path="/Postcreate" exact component={Postcreate} />
         </Switch>
         <Footer />
       </Router>

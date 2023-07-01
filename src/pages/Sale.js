@@ -35,23 +35,5 @@ function Menu() {
   return(
   <div>{displayshop}</div>
   )}
-
+  
 export default Menu;
-//     <div className="sale">
-//       <h1 className="saleTitle">List of items</h1>
-//       <div className="saleList">
-//         {Shop.map((shopItem, key) => {
-//           return (
-//             <ShopItem
-//               key={key}
-//               image={shopItem.image}
-//               name={shopItem.name}
-//               price={shopItem.price}
-//             />
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// }
-
