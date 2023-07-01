@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Sale.css";
+import "../styles/Contributors.css";
 import { useEffect, useState } from "react";
 
 function Menu() {
