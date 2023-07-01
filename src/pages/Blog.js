@@ -44,7 +44,7 @@ function Blog() {
   return (
     <div className='blog'>
       <div className='blog-t'>
-        <h1> Tell us how were doing!</h1>
+        <h1> Show your independence!</h1>
         {/*        
       /* <div>{posts.map((post) =>
       (<p>{post.Fullname}</p>))  }</div>

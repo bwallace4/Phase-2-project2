@@ -10,28 +10,23 @@ function Navbar() {
     setOpenLinks(!openLinks);
   };
   return (
-    <div className="navbar">
-      <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <img src={storelogo} alt="shop" />
-        <div className="hiddenLinks">
-          <Link to="/"> Home </Link>
-          <Link to="/sale"> Sale </Link>
-          <Link to="/about"> About </Link>
-          <Link to="/blog"> Blog </Link>
-         
- 
+    <div className='navbar'>
+      <div className='leftSide' id={openLinks ? "open" : "close"}>
+        <img src={storelogo} alt='shop' />
+        <div className='hiddenLinks'>
+          <Link to='/'> Home </Link>
+          <Link to='/sale'> Sale </Link>
+          <Link to='/about'> About </Link>
+          <Link to='/blog'> Blog </Link>
         </div>
       </div>
-      <div className="rightSide">
-        <Link to="/"> Home </Link>
-        <Link to="/sale"> Sale </Link>
-        <Link to="/about"> About </Link>
-        <Link to="/blog"> Blog </Link>
-       
+      <div className='rightSide'>
+        <Link to='/'> Home </Link>
+        <Link to='/sale'> Sale </Link>
+        <Link to='/about'> About </Link>
+        <Link to='/blog'> Blog </Link>
 
-        <button onClick={toggleNavbar}>
-     
-        </button>
+        <button onClick={toggleNavbar}></button>
       </div>
     </div>
   );
