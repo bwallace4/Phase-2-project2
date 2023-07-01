@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/sale"> Sale </Link>
           <Link to="/about"> About </Link>
           <Link to="/blog"> Blog </Link>
-          <Link to="/postpage"> postpage </Link>
+         
  
         </div>
       </div>
@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/sale"> Sale </Link>
         <Link to="/about"> About </Link>
         <Link to="/blog"> Blog </Link>
-        <Link to="/postpage"> postpage </Link>
+       
 
         <button onClick={toggleNavbar}>
      
