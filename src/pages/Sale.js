@@ -5,8 +5,8 @@ import {useEffect,useState} from "react";
 function Menu() {
   const [shop, setShop] = useState([]);
 
-  
- 
+
+
 
   const displayshop = shop.map((shops) =>{
     return(
@@ -16,12 +16,10 @@ function Menu() {
       <p>{shops.price}</p>
       </>
       
-    )
- 
-  })
-  
-  
-  
+      )  })
+
+
+
   
   useEffect(() => {
     fetch("http://localhost:3300/shop")

@@ -7,7 +7,7 @@ function Footer() {
       <div className="socialMedia">
         
       </div>
-      <p> &copy; 2023 Brandonsellthings.com</p>
+      <p> &copy; 2023 Brandoncelebrateindependence.com</p>
     </div>
   );
 }
