@@ -1,4 +1,4 @@
- {
+div.App> div> p {
     display: flex;
     flex-direction: column;
     width: auto;

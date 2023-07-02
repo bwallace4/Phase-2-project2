@@ -25,5 +25,4 @@ function Menu() {
 
   return <div>{displayname}</div>;
 }
-
 export default Menu;
