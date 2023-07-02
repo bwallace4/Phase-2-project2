@@ -26,7 +26,7 @@ You may also see any lint errors in the console.
       .then((r) => r.json())
       .then((newblog) => setPosts([...posts, newblog]))
 ```
-This is my post request where I render information from the json file to my bog.js
+This is my post request where I render information from the json file to my blog.js
 
 ## Roadmap
 
