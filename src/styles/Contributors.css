@@ -1,2 +1,10 @@
-
+p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    font-style: italic;
+  }
+  
 
