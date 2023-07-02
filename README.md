@@ -36,5 +36,5 @@ This is my post request where I render information from the json file to my blog
 
 - Extend my knowledge of js
 
-### Backend Deployment
+## Backend Deployment
 https://github.com/bwallace4/json-server-template.git
