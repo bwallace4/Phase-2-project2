@@ -1,4 +1,4 @@
-# Phase-2-project2
+# My 4th of July app
 My app use components and client-side routes. To render information about the 4th of July. I wanted to get creative and be informative with the delivery of my project. Also, I pull information from my json file with fetch and post requests to display names and text. For my second project I wanted to do things a little differently. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
